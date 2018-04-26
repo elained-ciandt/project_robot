@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation
-Resource  /Users/elained/Documents/AB/project_robot/step_definition/test_study.robot
+Resource  /Users/elained/Documents/GitHub/project_robot/step_definition/test_study.robot
 
 
 *** Test Cases ***

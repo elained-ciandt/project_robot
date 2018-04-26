@@ -1,6 +1,6 @@
 *** Settings ***
 Library    AppiumLibrary
-Resource  /Users/elained/Documents/AB/project_robot/features/test_study.robot
+Resource  /Users/elained/Documents/GitHub/project_robot/features/test_study.robot
 
 *** Variables ***
 #Configuration

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180426 14:17:10.691" generator="Robot 3.0.4 (Python 2.7.14 on darwin)">
-<suite source="/Users/elained/Documents/AB/project_robot/features/test_study.robot" id="s1" name="Test Study">
+<robot generated="20180426 19:36:46.288" generator="Robot 3.0.4 (Python 2.7.14 on darwin)">
+<suite source="/Users/elained/Documents/GitHub/project_robot/features/test_study.robot" id="s1" name="Test Study">
 <test id="s1-t1" name="Login keyword">
 <kw name="Given open app" library="test_study">
 <kw name="Open Application" library="AppiumLibrary">
@@ -12,9 +12,9 @@
 <arg>deviceName=emulator-5554</arg>
 <arg>app=/Users/elained/analytics-lab-android/AnalyticsLab/app/build/outputs/apk/app-debug.apk</arg>
 </arguments>
-<status status="PASS" endtime="20180426 14:17:21.995" starttime="20180426 14:17:10.842"></status>
+<status status="PASS" endtime="20180426 19:36:58.851" starttime="20180426 19:36:46.733"></status>
 </kw>
-<status status="PASS" endtime="20180426 14:17:21.996" starttime="20180426 14:17:10.842"></status>
+<status status="PASS" endtime="20180426 19:36:58.851" starttime="20180426 19:36:46.733"></status>
 </kw>
 <kw name="When inform user" library="test_study">
 <kw name="Input Text" library="AppiumLibrary">
@@ -23,10 +23,10 @@
 <arg>${login_username}</arg>
 <arg>${user}</arg>
 </arguments>
-<msg timestamp="20180426 14:17:21.997" level="INFO">Typing text 'elained' into text field 'id=inputedittext_login_username'</msg>
-<status status="PASS" endtime="20180426 14:17:27.634" starttime="20180426 14:17:21.997"></status>
+<msg timestamp="20180426 19:36:58.853" level="INFO">Typing text 'elained' into text field 'id=inputedittext_login_username'</msg>
+<status status="PASS" endtime="20180426 19:37:04.782" starttime="20180426 19:36:58.853"></status>
 </kw>
-<status status="PASS" endtime="20180426 14:17:27.634" starttime="20180426 14:17:21.996"></status>
+<status status="PASS" endtime="20180426 19:37:04.782" starttime="20180426 19:36:58.852"></status>
 </kw>
 <kw name="And password" library="test_study">
 <kw name="Input Password" library="AppiumLibrary">
@@ -35,10 +35,10 @@
 <arg>${login_password}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20180426 14:17:27.636" level="INFO">Typing password into text field 'id=inputedittext_login_password'</msg>
-<status status="PASS" endtime="20180426 14:17:33.117" starttime="20180426 14:17:27.635"></status>
+<msg timestamp="20180426 19:37:04.784" level="INFO">Typing password into text field 'id=inputedittext_login_password'</msg>
+<status status="PASS" endtime="20180426 19:37:10.247" starttime="20180426 19:37:04.783"></status>
 </kw>
-<status status="PASS" endtime="20180426 14:17:33.117" starttime="20180426 14:17:27.635"></status>
+<status status="PASS" endtime="20180426 19:37:10.247" starttime="20180426 19:37:04.783"></status>
 </kw>
 <kw name="Then login successfully" library="test_study">
 <kw name="Click Element" library="AppiumLibrary">
@@ -46,18 +46,18 @@
 <arguments>
 <arg>${sign_in}</arg>
 </arguments>
-<msg timestamp="20180426 14:17:33.118" level="INFO">Clicking element 'id= button_login_sign_in'.</msg>
-<status status="PASS" endtime="20180426 14:17:34.146" starttime="20180426 14:17:33.118"></status>
+<msg timestamp="20180426 19:37:10.249" level="INFO">Clicking element 'id= button_login_sign_in'.</msg>
+<status status="PASS" endtime="20180426 19:37:11.375" starttime="20180426 19:37:10.248"></status>
 </kw>
 <kw name="Quit Application" library="AppiumLibrary">
 <doc>Quit application. Application can be quit while Appium session is kept alive. </doc>
-<status status="PASS" endtime="20180426 14:17:34.743" starttime="20180426 14:17:34.146"></status>
+<status status="PASS" endtime="20180426 19:37:12.009" starttime="20180426 19:37:11.376"></status>
 </kw>
-<status status="PASS" endtime="20180426 14:17:34.744" starttime="20180426 14:17:33.118"></status>
+<status status="PASS" endtime="20180426 19:37:12.009" starttime="20180426 19:37:10.247"></status>
 </kw>
-<status status="PASS" endtime="20180426 14:17:34.744" critical="yes" starttime="20180426 14:17:10.841"></status>
+<status status="PASS" endtime="20180426 19:37:12.009" critical="yes" starttime="20180426 19:36:46.733"></status>
 </test>
-<status status="PASS" endtime="20180426 14:17:34.745" starttime="20180426 14:17:10.694"></status>
+<status status="PASS" endtime="20180426 19:37:12.012" starttime="20180426 19:36:46.290"></status>
 </suite>
 <statistics>
 <total>
@@ -71,6 +71,6 @@
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20180426 14:17:10.840" level="ERROR">Error in file '/Users/elained/Documents/AB/project_robot/step_definition/test_study.robot': Resource file '/Users/elained/Documents/AB/project_robot/features/test_study.robot' contains a test case table which is not allowed.</msg>
+<msg timestamp="20180426 19:36:46.731" level="ERROR">Error in file '/Users/elained/Documents/GitHub/project_robot/step_definition/test_study.robot': Resource file '/Users/elained/Documents/GitHub/project_robot/features/test_study.robot' contains a test case table which is not allowed.</msg>
 </errors>
 </robot>

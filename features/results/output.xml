@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180426 14:17:10.691" generator="Robot 3.0.4 (Python 2.7.14 on darwin)">
+<suite source="/Users/elained/Documents/AB/project_robot/features/test_study.robot" id="s1" name="Test Study">
+<test id="s1-t1" name="Login keyword">
+<kw name="Given open app" library="test_study">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=android</arg>
+<arg>platformVersion=6.0</arg>
+<arg>deviceName=emulator-5554</arg>
+<arg>app=/Users/elained/analytics-lab-android/AnalyticsLab/app/build/outputs/apk/app-debug.apk</arg>
+</arguments>
+<status status="PASS" endtime="20180426 14:17:21.995" starttime="20180426 14:17:10.842"></status>
+</kw>
+<status status="PASS" endtime="20180426 14:17:21.996" starttime="20180426 14:17:10.842"></status>
+</kw>
+<kw name="When inform user" library="test_study">
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${login_username}</arg>
+<arg>${user}</arg>
+</arguments>
+<msg timestamp="20180426 14:17:21.997" level="INFO">Typing text 'elained' into text field 'id=inputedittext_login_username'</msg>
+<status status="PASS" endtime="20180426 14:17:27.634" starttime="20180426 14:17:21.997"></status>
+</kw>
+<status status="PASS" endtime="20180426 14:17:27.634" starttime="20180426 14:17:21.996"></status>
+</kw>
+<kw name="And password" library="test_study">
+<kw name="Input Password" library="AppiumLibrary">
+<doc>Types the given password into text field identified by `locator`.</doc>
+<arguments>
+<arg>${login_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20180426 14:17:27.636" level="INFO">Typing password into text field 'id=inputedittext_login_password'</msg>
+<status status="PASS" endtime="20180426 14:17:33.117" starttime="20180426 14:17:27.635"></status>
+</kw>
+<status status="PASS" endtime="20180426 14:17:33.117" starttime="20180426 14:17:27.635"></status>
+</kw>
+<kw name="Then login successfully" library="test_study">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_in}</arg>
+</arguments>
+<msg timestamp="20180426 14:17:33.118" level="INFO">Clicking element 'id= button_login_sign_in'.</msg>
+<status status="PASS" endtime="20180426 14:17:34.146" starttime="20180426 14:17:33.118"></status>
+</kw>
+<kw name="Quit Application" library="AppiumLibrary">
+<doc>Quit application. Application can be quit while Appium session is kept alive. </doc>
+<status status="PASS" endtime="20180426 14:17:34.743" starttime="20180426 14:17:34.146"></status>
+</kw>
+<status status="PASS" endtime="20180426 14:17:34.744" starttime="20180426 14:17:33.118"></status>
+</kw>
+<status status="PASS" endtime="20180426 14:17:34.744" critical="yes" starttime="20180426 14:17:10.841"></status>
+</test>
+<status status="PASS" endtime="20180426 14:17:34.745" starttime="20180426 14:17:10.694"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test Study" pass="1">Test Study</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180426 14:17:10.840" level="ERROR">Error in file '/Users/elained/Documents/AB/project_robot/step_definition/test_study.robot': Resource file '/Users/elained/Documents/AB/project_robot/features/test_study.robot' contains a test case table which is not allowed.</msg>
+</errors>
+</robot>

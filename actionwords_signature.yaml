@@ -1,0 +1,21 @@
+---
+- name: open app
+  uid: b08f89ba-6cac-4870-8848-76d1753d63df
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: inform $(user)
+  uid: 1eb92bb4-a221-43cf-b2f0-0ab046a1d1be
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Then
+  uid: c6ded45e-5ee7-4e32-bc42-f8c91c7686c9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: "$(password)"
+  uid: 3dbe0a36-9871-4c2a-9ddb-fa50f57e9f31
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: login successfully
+  uid: f6d4bf0f-7acc-402e-a533-b0de699a8937
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
